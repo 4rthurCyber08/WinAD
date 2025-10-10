@@ -3,7 +3,8 @@
 
 # 💡 Install Active Directory Domains and Services
 
-### 1. On Server Manager, go to Manage > `Add Roles and Features` __[01]__
+### 1. On Server Manager
+Go to Manage > `Add Roles and Features` __[01]__
 
 <br>
 
@@ -13,7 +14,8 @@
 ---
 &nbsp;
 
-### 2. Leave the initial prompt to defaults. Select `Next` __[02]__
+### 2. Before You Begin
+Leave the initial prompt to defaults. Select `Next` __[02]__
 
 <br>
 
@@ -23,7 +25,8 @@
 ---
 &nbsp;
 
-### 3. Leave the initial prompt to defaults. Select `Next` __[03]__ again.
+### 3. Installation Type.
+Select `Next` __[03]__ again.
 
 <br>
 
@@ -33,7 +36,8 @@
 ---
 &nbsp;
 
-### 4. Select `Next` __[04]__
+### 4. Destination Server
+Select `Next` __[04]__
 > [!IMPORTANT]
 > The destination server is itself. The initial configuration is based on the Windows Server 2022 setup.
 
@@ -45,7 +49,8 @@
 ---
 &nbsp;
 
-### 5. Select `Active Directory Domain Services` __[05]__
+### 5. Select Server Roles
+Select `Active Directory Domain Services` __[05]__
 <br>
 
 ![05-AD](<img/00 AD-05.png>)
@@ -54,7 +59,8 @@
 ---
 &nbsp;
 
-### 6. Select `Add Features` __[06]__
+### 6. Confirm Add Roles and Features
+Select `Add Features` __[06]__
 <br>
 
 ![06-AD](<img/00 AD-06.png>)
@@ -63,7 +69,8 @@
 ---
 &nbsp;
 
-### 7. Select `Next` __[07]__
+### 7. Server Roles
+Select `Next` __[07]__
 <br>
 
 ![07-AD](<img/00 AD-07.png>)
@@ -72,7 +79,8 @@
 ---
 &nbsp;
 
-### 8. Don't select any Features. Simply select `Next` __[08]__
+### 8. Features
+Don't select any Features. Simply select `Next` __[08]__
 <br>
 
 ![08-AD](<img/00 AD-08.png>)
@@ -81,7 +89,8 @@
 ---
 &nbsp;
 
-### 9. Select `Next` __[09]__
+### 9. Active Directory Failover
+Select `Next` __[09]__
 <br>
 
 ![09-AD](<img/00 AD-09.png>)
@@ -90,7 +99,8 @@
 ---
 &nbsp;
 
-### 10. Finally, `Install` __[10]__
+### 10. Confirm Installation Selections
+Finally, `Install` __[10]__
 <br>
 
 ![10-AD](<img/00 AD-10.png>)
