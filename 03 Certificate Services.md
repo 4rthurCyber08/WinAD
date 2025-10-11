@@ -167,3 +167,80 @@ Select `Root CA` __[18]__. Then, select `Next` __[19]__
 
 &nbsp;
 ---
+&nbsp;
+
+### 17. Private Key
+Select `Create a new private key` __[20]__. Then, select `Next` __[21]__
+<br>
+
+![17-CA](<img/00 CA-13.png>)
+
+&nbsp;
+---
+&nbsp;
+
+
+### 18. Cryptography for CA
+- Select `SHA256` __[22]__.  
+- Specify a key length of `2048` __[23]__.
+- Then, select `Next` __[24]__
+  
+<br>
+
+![18-CA](<img/00 CA-14.png>)
+
+&nbsp;
+---
+&nbsp;
+
+### 19. CA Name
+Leave the settings as default. Then, select `Next` __[25]__
+  
+<br>
+
+![19-CA](<img/00 CA-15.png>)
+
+&nbsp;
+---
+&nbsp;
+
+### 20. Validity Period
+Leave the settings as default. Then, select `Next` __[26]__
+  
+<br>
+
+![20-CA](<img/00 CA-16.png>)
+
+&nbsp;
+---
+&nbsp;
+
+### 21. CA Database
+Leave the settings as default. Then, select `Next` __[27]__
+  
+<br>
+
+![21-CA](<img/00 CA-17.png>)
+
+&nbsp;
+---
+&nbsp;
+
+### 22. Confirmation
+Select `Next` __[28]__
+  
+<br>
+
+![22-CA](<img/00 CA-18.png>)
+
+&nbsp;
+---
+&nbsp;
+
+### 23. Results
+Finally, select `Close` __[29]__
+  
+<br>
+
+![23-CA](<img/00 CA-19.png>)
+
