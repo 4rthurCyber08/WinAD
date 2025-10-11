@@ -103,5 +103,8 @@ Select `Install` __[09]__
 <br>
 
 Then, `Close` __[10]__ the installation wizard
+
+<br>
+
 ![10-NetPol](<img/00 NetPolServer-06.png>)
 
