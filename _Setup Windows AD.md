@@ -117,3 +117,133 @@ Finally, `Install` __[10]__
 &nbsp;
 ---
 &nbsp;
+
+### 12. Promote the server
+Once installation is finished, `Promote this server to a domain controller` __[11]__
+<br>
+
+![12-AD](<img/00 AD-12.png>)
+
+&nbsp;
+---
+&nbsp;
+
+### 13. Deployment Configuration
+Select `Add a new forest` __[12]__  
+
+<br>
+
+The Root domain name must be based on the suffix that is set on the server's network adapter.  
+To identify that prefix, press `Win + R` to access `Run` __[13]__  
+- Type `ncpa.cpl` __[14]__.
+- Then, `OK` __[15]__.
+
+<br>
+
+> [!NOTE]
+> Refer to the setup for Windows Server 2022. These settings should have already been set prior to installing Active Directory.
+
+<br>
+
+![13-AD](<img/00 AD-13.png>)
+
+&nbsp;
+---
+&nbsp;
+
+### 14. Identify the Root Domain Name
+`Right-click` on the network adapter that connects to the network, in this case its `TunayNaLAN` __[16]__. 
+
+<br>
+
+Next, select `Properties` __[17]__
+
+<br>
+
+![14-AD](<img/00 AD-14.png>)
+
+&nbsp;
+---
+&nbsp;
+
+### 15. Network Adapter Properties
+Select `Internet Protocol Version 4 (TCP/IPv4)` __[18]__.  
+Then, `Properties` __[19]__.
+
+<br>
+
+![15-AD](<img/00 AD-15.png>)
+
+&nbsp;
+---
+&nbsp;
+
+### 16. IPv4 Properties
+Verify that the necessary `IP addressing` is set on the Network Adapter __[20]__.
+
+<br>
+
+> [!IMPORTANT]
+> The addressing set on this example is connected to a switch within the subnet of __10.#$34T#.1.0 /24__
+> If you do not have a switch or any external hardware, simply choose a Network Adapter that is connected to either NAT, or VMNet2. This way, you can configure AD with RADIUS for the CSR1000v for AAA.
+> As long as the IP address set on the adapter is within the same subnet as the VMNet, there should be no problems.
+ 
+<br>
+
+Then, select `Advanced..` __[21]__
+
+<br>
+
+![16-AD](<img/00 AD-16.png>)
+
+&nbsp;
+---
+&nbsp;
+
+### 17. DNS Settings
+Go to `DNS` __[22]__
+
+<br>
+
+![17-AD](<img/00 AD-17.png>)
+
+&nbsp;
+---
+&nbsp;
+
+### 18. DNS Suffix
+The DNS suffix set on the network adapter, in this case is `rivan92.com` __[23]__, must be set as the `Root Domain Name` __[24]__
+
+<br>
+
+![18-AD](<img/00 AD-18.png>)
+
+&nbsp;
+---
+&nbsp;
+
+### 19. Configure Deployment
+Then, return to the installation window and select `Next` __[25]__
+
+<br>
+
+![19-AD](<img/00 AD-19.png>)
+
+&nbsp;
+---
+&nbsp;
+
+### 20. Domain Controller Options
+`Enter a password` __[26]__ for the domain controller. This will be used to login to the account.
+
+<br>
+
+Then, select `Next` __[27]__
+
+<br>
+
+![20-AD](<img/00 AD-20.png>)
+
+&nbsp;
+---
+&nbsp;
