@@ -1,7 +1,7 @@
 
 <!-- Your monitor number = #$34T# -->
 
-# 💡 Install Active Directory Domains and Services
+# 💡 Install Network Policy Server
 
 ### 1. On Server Manager
 Go to Manage > `Add Roles and Features` __[01]__
