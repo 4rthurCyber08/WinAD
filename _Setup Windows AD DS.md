@@ -308,7 +308,7 @@ Select `Install` __[33]__
 ---
 &nbsp;
 
-### 26. Results
+### 26. Log in to the Controller
 After installation, Windows will restart, select `Close` __[34]__
 
 <br>
