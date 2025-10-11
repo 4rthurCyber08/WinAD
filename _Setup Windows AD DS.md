@@ -247,3 +247,82 @@ Then, select `Next` __[27]__
 &nbsp;
 ---
 &nbsp;
+
+### 21. DNS Options
+Select `Next` __[28]__
+
+<br>
+
+![21-AD](<img/00 AD-21.png>)
+
+&nbsp;
+---
+&nbsp;
+
+### 22. Additional Options
+Simply wait for Windows to automatically set a `NetBIOS domain name` __[29]__
+
+<br>
+
+Then, select `Next` __[30]__
+
+<br>
+
+![22-AD](<img/00 AD-22.png>)
+
+&nbsp;
+---
+&nbsp;
+
+### 23. Paths
+Select `Next` __[31]__
+
+<br>
+
+![23-AD](<img/00 AD-23.png>)
+
+&nbsp;
+---
+&nbsp;
+
+
+### 24. Review Options
+Select `Next` __[32]__
+
+<br>
+
+![24-AD](<img/00 AD-24.png>)
+
+&nbsp;
+---
+&nbsp;
+
+### 25. Prerequisites Check
+Select `Install` __[33]__
+
+<br>
+
+![25-AD](<img/00 AD-25.png>)
+
+&nbsp;
+---
+&nbsp;
+
+### 26. Results
+After installation, Windows will restart, select `Close` __[34]__
+
+<br>
+
+![26-AD](<img/00 AD-26.png>)
+
+&nbsp;
+---
+&nbsp;
+
+### 27. Results
+Wait for the installation to be finalized, then on next bootup, access the controller based on the password that was set. In this case, the password used is `C1sc0123` __[35]__
+
+<br>
+
+![27-AD](<img/00 AD-27.png>)
+
