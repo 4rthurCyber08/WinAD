@@ -184,8 +184,8 @@ Verify that the necessary `IP addressing` is set on the Network Adapter __[20]__
 <br>
 
 > [!IMPORTANT]
-> The addressing set on this example is connected to a switch within the subnet of __10.#$34T#.1.0 /24__
-> If you do not have a switch or any external hardware, simply choose a Network Adapter that is connected to either NAT, or VMNet2. This way, you can configure AD with RADIUS for the CSR1000v for AAA.
+> The addressing set on this example is connected to a switch within the subnet of __10.#$34T#.1.0 /24__  
+> If you do not have a switch or any external hardware, simply choose a Network Adapter that is connected to either NAT, or VMNet2. This way, you can configure AD with RADIUS for the CSR1000v for AAA.  
 > As long as the IP address set on the adapter is within the same subnet as the VMNet, there should be no problems.
  
 <br>
