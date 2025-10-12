@@ -98,7 +98,18 @@ Then, select `Next` __[14]__
 ---
 &nbsp;
 
-### 8. Select Group
+### 8. Add User Groups
+`Add...` __[15]__
+
+<br>
+
+![08-AAA](<img/AAA-08.png>)
+
+&nbsp;
+---
+&nbsp;
+
+### 9. Select Group
 Enter the first 2 letters of the specified User Group: `Do` __[16]__. Then, in case there is a lot of user groups or you don't remember them, you can select `Check Names` __[17]__
 
 <br>
@@ -109,7 +120,7 @@ Enter the first 2 letters of the specified User Group: `Do` __[16]__. Then, in c
 ---
 &nbsp;
 
-### 9. Find Names
+### 10. Find Names
 Select `Domain Users` __[18]__. Then, `OK` __[19]__
 
 <br>
@@ -120,7 +131,7 @@ Select `Domain Users` __[18]__. Then, `OK` __[19]__
 ---
 &nbsp;
 
-### 10. Confirm Group Selection
+### 11. Confirm Group Selection
 Verify if `Domain Users` __[20]__ is now listed. Then, `OK` __[21]__
 
 <br>
