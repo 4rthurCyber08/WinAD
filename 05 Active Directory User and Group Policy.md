@@ -1,21 +1,22 @@
 
 <!-- Your monitor number = #$34T# -->
 
-# 💡 Install Active Directory Domains and Services
+# 💡 Modify Active Directory Users and Computers
 
 ### 1. On Server Manager
-Go to Manage > `Add Roles and Features` __[01]__
+Go to Manage > `Active Directory Users and Computers` __[01]__
 
 <br>
 
-![01-AD](<img/00 AD-01.png>)
+![01-AD Users](<img/00 AD-Users-01.png>)
 
 &nbsp;
 ---
 &nbsp;
 
-### 2. Before You Begin
-Leave the initial prompt to defaults. Select `Next` __[02]__
+### 2. Modify Active Directory
+Drop down the existing domain controller, in this example is `rivan92.com` __[02]__  
+Then, on the `Users` __[03]__ directory, add a `New Object - User` __[04]__
 
 <br>
 
@@ -25,8 +26,20 @@ Leave the initial prompt to defaults. Select `Next` __[02]__
 ---
 &nbsp;
 
-### 3. Installation Type.
-Select `Next` __[03]__ again.
+### 3. New Object - User
+Assign the following user details [05]
+- First name: `Anne`
+- Last name: `Curtis`
+- Initials: `C`
+- Full name: `Anne C. Curtis`
+
+<br>
+
+Then, the user login name: `ac` __[06]__
+
+<br>
+
+Then, select `Next` __[07]__
 
 <br>
 
