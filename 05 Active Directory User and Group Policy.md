@@ -113,7 +113,7 @@ Select `NOC` __[18]__. Then click on the `Create a new group icon` __[19]__
 ---
 &nbsp;
 
-### 9. Active Directory Failover
+### 9. New Object - Group
 Add a Group Name: `Global-NOC` __[20]__  & __[21]__  
 The, select `OK` __[22]__
 
@@ -125,15 +125,19 @@ The, select `OK` __[22]__
 ---
 &nbsp;
 
-### 10. Confirm Installation Selections
-Finally, `Install` __[10]__
+### 10. Create a new Local Group
+Click on the `Create a new group icon` __[23]__ again
 <br>
 
-![10-AD](<img/00 AD-10.png>)
+![10-AD Users](<img/00 AD-Users-10.png>)
 
 &nbsp;
 ---
 &nbsp;
+
+
+
+
 
 ### 11. Wait for the Feature to install successfully.
 <br>
