@@ -119,3 +119,42 @@ Select `Domain Users` __[18]__. Then, `OK` __[19]__
 &nbsp;
 ---
 &nbsp;
+
+### 10. Confirm Group Selection
+Verify if `Domain Users` __[20]__ is now listed. Then, `OK` __[21]__
+
+<br>
+
+![11-AAA](<img/AAA-11.png>)
+
+<br>
+<br>
+
+Then `Next` __[22]__
+
+<br>
+
+![12-AAA](<img/AAA-12.png>)
+
+&nbsp;
+---
+&nbsp;
+
+### 12. Traffic Controls
+Leave as Default, select `Next` __[23]__
+
+<br>
+
+![13-AAA](<img/AAA-13.png>)
+
+&nbsp;
+---
+&nbsp;
+
+### 13. Confirm Configurations
+Finally, select `Finish` __[24]__
+
+<br>
+
+![14-AAA](<img/AAA-14.png>)
+
