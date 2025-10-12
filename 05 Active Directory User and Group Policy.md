@@ -20,14 +20,14 @@ Then, on the `Users` __[03]__ directory, add a `New Object - User` __[04]__
 
 <br>
 
-![02-AD](<img/00 AD-02.png>)
+![02-AD Users](<img/00 AD-Users-02.png>)
 
 &nbsp;
 ---
 &nbsp;
 
 ### 3. New Object - User
-Assign the following user details [05]
+Assign the following user details __[05]__
 - First name: `Anne`
 - Last name: `Curtis`
 - Initials: `C`
@@ -43,16 +43,20 @@ Then, select `Next` __[07]__
 
 <br>
 
-![03-AD](<img/00 AD-03.png>)
+![03-AD Users](<img/00 AD-Users-03.png>)
 
 &nbsp;
 ---
 &nbsp;
 
-### 4. Destination Server
-Select `Next` __[04]__
-> [!IMPORTANT]
-> The destination server is itself. The initial configuration is based on the Windows Server 2022 setup.
+### 4. Set User Password
+Assign a password. In this example it is `C1sc0123` __[08]__  
+- Uncheck `User must change password at next logon` __[09]__
+- Select `Password never expires` __[10]__
+
+<br>
+
+Then, select `Next` __[11]__
 
 <br>
 
