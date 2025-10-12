@@ -60,57 +60,66 @@ Then, select `Next` __[11]__
 
 <br>
 
-![04-AD](<img/00 AD-04.png>)
+![04-AD Users](<img/00 AD-04.png>)
 
 &nbsp;
 ---
 &nbsp;
 
-### 5. Select Server Roles
-Select `Active Directory Domain Services` __[05]__
+### 5. Confirm New User
+Select `Finish` __[12]__
 <br>
 
-![05-AD](<img/00 AD-05.png>)
+![05-AD Users](<img/00 AD-Users-05.png>)
 
 &nbsp;
 ---
 &nbsp;
 
-### 6. Confirm Add Roles and Features
-Select `Add Features` __[06]__
+### 6. Create an OU (Organizational Unit)
+Select, then right-click on the domain controller, in this case it's `rivan92.com` __[13]__,
+then `New` __[14]__ > `Organizational Unit` __[15]__
+
 <br>
 
-![06-AD](<img/00 AD-06.png>)
+![06-AD Users](<img/00 AD-Users-06.png>)
 
 &nbsp;
 ---
 &nbsp;
 
-### 7. Server Roles
-Select `Next` __[07]__
+### 7. New Object - Organizational Unit
+Set `NOC` __[16]__ as the name of the OU. Then, select `OK` __[17]__
+
 <br>
 
-![07-AD](<img/00 AD-07.png>)
+![07-AD Users](<img/00 AD-Users-07.png>)
 
 &nbsp;
 ---
 &nbsp;
 
-### 8. Features
-Don't select any Features. Simply select `Next` __[08]__
+### 8. Create a Group
+> [!IMPORTANT]
+> Select the OU
+
+Select `NOC` __[18]__. Then click on the `Create a new group icon` __[19]__
+
 <br>
 
-![08-AD](<img/00 AD-08.png>)
+![08-AD Users](<img/00 AD-Users-08.png>)
 
 &nbsp;
 ---
 &nbsp;
 
 ### 9. Active Directory Failover
-Select `Next` __[09]__
+Add a Group Name: `Global-NOC` __[20]__  & __[21]__  
+The, select `OK` __[22]__
+
 <br>
 
-![09-AD](<img/00 AD-09.png>)
+![09-AD Users](<img/00 AD-Users-09.png>)
 
 &nbsp;
 ---
