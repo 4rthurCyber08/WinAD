@@ -135,62 +135,49 @@ Click on the `Create a new group icon` __[23]__ again
 ---
 &nbsp;
 
+### 11. New Object - Group
+Add a Group Name: `Local-NOC` __[24]__  & __[25]__  
+Set the Group Scope as `Domain Local` __[26]__  
+The, select `OK` __[27]__  
 
-
-
-
-### 11. Wait for the Feature to install successfully.
 <br>
 
-![11-AD](<img/00 AD-11.png>)
+![11-AD Users](<img/00 AD-Users-11.png>)
 
 &nbsp;
 ---
 &nbsp;
 
-### 12. Promote the server
-Once installation is finished, `Promote this server to a domain controller` __[11]__
+### 12. Move User
+Click on the `Users` __[28]__ directory. Then, drag the recently created user, `Anne C. Curtis` __[29]__, inside the OU, `NOC` __[30]__
+
 <br>
 
-![12-AD](<img/00 AD-12.png>)
+![12-AD Users](<img/00 AD-Users-12.png>)
 
 &nbsp;
 ---
 &nbsp;
 
-### 13. Deployment Configuration
-Select `Add a new forest` __[12]__  
+### 13. Don't show the warning
+Select `Yes` __[31]__  
 
 <br>
 
-The Root domain name must be based on the suffix that is set on the server's network adapter.  
-To identify that prefix, press `Win + R` to access `Run` __[13]__  
-- Type `ncpa.cpl` __[14]__.
-- Then, `OK` __[15]__.
-
-<br>
-
-> [!NOTE]
-> Refer to the setup for Windows Server 2022. These settings should have already been set prior to installing Active Directory.
-
-<br>
-
-![13-AD](<img/00 AD-13.png>)
+![13-AD Users](<img/00 AD-Users-13.png>)
 
 &nbsp;
 ---
 &nbsp;
 
-### 14. Identify the Root Domain Name
-`Right-click` on the network adapter that connects to the network, in this case its `TunayNaLAN` __[16]__. 
+### 14. User Membership
+Select the OU, `NOC` __[32]__, then `Right-click` __[33]__ on Anne C. Curtis.   
 
 <br>
 
-Next, select `Properties` __[17]__
+Then select `Properties` __[34]__. 
 
-<br>
-
-![14-AD](<img/00 AD-14.png>)
+![14-AD Users](<img/00 AD-Users-14.png>)
 
 &nbsp;
 ---
