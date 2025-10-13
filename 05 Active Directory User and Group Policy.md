@@ -183,94 +183,74 @@ Then select `Properties` __[34]__.
 ---
 &nbsp;
 
-### 15. Network Adapter Properties
-Select `Internet Protocol Version 4 (TCP/IPv4)` __[18]__.  
-Then, `Properties` __[19]__.
+### 15. Modify Membership
+On the `Member Of` __[35]__ tab, select `Add` __[36]__.
 
 <br>
 
-![15-AD](<img/00 AD-15.png>)
+![15-AD Users](<img/00 AD-Users-15.png>)
 
 &nbsp;
 ---
 &nbsp;
 
-### 16. IPv4 Properties
-Verify that the necessary `IP addressing` is set on the Network Adapter __[20]__.
+### 16. Select Groups
+Add the user to `Global-NOC` __[37]__ then select `OK` __[38]__.
 
-<br>
-
-> [!IMPORTANT]
-> The addressing set on this example is connected to a switch within the subnet of __10.#$34T#.1.0 /24__  
-> If you do not have a switch or any external hardware, simply choose a Network Adapter that is connected to either NAT, or VMNet2. This way, you can configure AD with RADIUS for the CSR1000v for AAA.  
-> As long as the IP address set on the adapter is within the same subnet as the VMNet, there should be no problems.
- 
-<br>
-
-Then, select `Advanced..` __[21]__
-
-<br>
-
-![16-AD](<img/00 AD-16.png>)
+![16-AD Users](<img/00 AD-Users-16.png>)
 
 &nbsp;
 ---
 &nbsp;
 
-### 17. DNS Settings
-Go to `DNS` __[22]__
+### 17. Primary Group
+Select `Global-NOC` __[39]__. Then, `Set Primary Group` __[40]__
 
 <br>
 
-![17-AD](<img/00 AD-17.png>)
+![17-AD Users](<img/00 AD-Users-17.png>)
 
 &nbsp;
 ---
 &nbsp;
 
-### 18. DNS Suffix
-The DNS suffix set on the network adapter, in this case is `rivan92.com` __[23]__, must be set as the `Root Domain Name` __[24]__
+### 18. Clear Membership
+Select `Domain Users` __[41]__, then `Remove` __[42]__. Confirm the removal and select `Yes` __[43]__
 
 <br>
 
-![18-AD](<img/00 AD-18.png>)
+![18-AD Users](<img/00 AD-Users-18.png>)
 
 &nbsp;
 ---
 &nbsp;
 
-### 19. Configure Deployment
-Then, return to the installation window and select `Next` __[25]__
+### 19. Confirm Member Of
+Select `Apply` __[44]__
 
 <br>
 
-![19-AD](<img/00 AD-19.png>)
+![19-AD Users](<img/00 AD-Users-19.png>)
 
 &nbsp;
 ---
 &nbsp;
 
-### 20. Domain Controller Options
-`Enter a password` __[26]__ for the domain controller. This will be used to login to the account.
+### 20. Group Management
+Select `Global-NOC` __[45]__ then `Properties` __[46]__
 
-<br>
-
-Then, select `Next` __[27]__
-
-<br>
-
-![20-AD](<img/00 AD-20.png>)
+![20-AD Users](<img/00 AD-Users-20.png>)
 
 &nbsp;
 ---
 &nbsp;
 
-### 21. DNS Options
-Select `Next` __[28]__
+### 21. Add Member Of
+On the `Member Of` __[47]__ tab, `Add` __[48]__
 
 <br>
 
-![21-AD](<img/00 AD-21.png>)
+![21-AD Users](<img/00 AD-Users-21.png>)
 
 &nbsp;
 ---
