@@ -318,5 +318,37 @@ Add `Local-NOC` __[60]__. Then, select `OK` __[61]__
 
 <br>
 
-![27-AD Users](<img/00 AD-Users-27.png>)
+![28-AD Users](<img/00 AD-Users-28.png>)
 
+&nbsp;
+---
+&nbsp;
+
+### 28. Remove Windows Groups
+Select `xxx\Domain Users` __[62]__. Then, select `Remove` __[63]__
+
+<br>
+
+![29-AD Users](<img/00 AD-Users-29.png>)
+
+&nbsp;
+---
+&nbsp;
+
+### 29. Confirm Windows Groups
+Select `OK` __[64]__.  
+
+<br>
+
+![30-AD Users](<img/00 AD-Users-30.png>)
+
+&nbsp;
+---
+&nbsp;
+
+### 29. Finalize Connection Policies
+Select `OK` __[65]__.  
+
+<br>
+
+![31-AD Users](<img/00 AD-Users-31.png>)
