@@ -194,7 +194,7 @@ On the `Member Of` __[35]__ tab, select `Add` __[36]__.
 ---
 &nbsp;
 
-### 16. Select Groups
+### 16. Select Groups (Global)
 Add the user to `Global-NOC` __[37]__ then select `OK` __[38]__.
 
 ![16-AD Users](<img/00 AD-Users-16.png>)
@@ -256,70 +256,67 @@ On the `Member Of` __[47]__ tab, `Add` __[48]__
 ---
 &nbsp;
 
-### 22. Additional Options
-Simply wait for Windows to automatically set a `NetBIOS domain name` __[29]__
+### 22. Select Groups (Local)
+Add the user to `Local-NOC` __[49]__ then select `OK` __[50]__.
 
-<br>
-
-Then, select `Next` __[30]__
-
-<br>
-
-![22-AD](<img/00 AD-22.png>)
+![22-AD Users](<img/00 AD-Users-22.png>)
 
 &nbsp;
 ---
 &nbsp;
 
-### 23. Paths
-Select `Next` __[31]__
+### 23. Confirm Member Of
+Select `OK` __[51]__
 
 <br>
 
-![23-AD](<img/00 AD-23.png>)
+![23-AD Users](<img/00 AD-Users-23.png>)
+
+<br>
+
+![24-AD Users](<img/00 AD-Users-24.png>)
 
 &nbsp;
 ---
 &nbsp;
 
-
-### 24. Review Options
-Select `Next` __[32]__
+### 24. Modify Network Policy
+Return to the Network Policy Server, then under `Policies` __[52]__, select `Network Policies` __[53]__ then right-click on the `Secure Wireless Connections` __[54]__ and select `Properties` __[55]__.
 
 <br>
 
-![24-AD](<img/00 AD-24.png>)
+![25-AD Users](<img/00 AD-Users-25.png>)
 
 &nbsp;
 ---
 &nbsp;
 
-### 25. Prerequisites Check
-Select `Install` __[33]__
+### 25. Secure Wireless Connections Properties
+On the `Conditions` __[56]__ tab. Select `Windows Groups` __[57]__, then `Edit` __[58]__.
 
 <br>
 
-![25-AD](<img/00 AD-25.png>)
+![26-AD Users](<img/00 AD-Users-26.png>)
 
 &nbsp;
 ---
 &nbsp;
 
-### 26. Log in to the Controller
-After installation, Windows will restart, select `Close` __[34]__
+### 26. Windows Groups
+`Add Groups...` __[59]__
 
 <br>
 
-![26-AD](<img/00 AD-26.png>)
+![27-AD Users](<img/00 AD-Users-27.png>)
 
 &nbsp;
 ---
 &nbsp;
 
-### 27. Results
-Wait for the installation to be finalized, then on next bootup, access the controller based on the password that was set. In this case, the password used is `C1sc0123` __[35]__
+### 27. Select Group
+Add `Local-NOC` __[60]__. Then, select `OK` __[61]__
 
 <br>
 
-![27-AD](<img/00 AD-27.png>)
+![27-AD Users](<img/00 AD-Users-27.png>)
 
