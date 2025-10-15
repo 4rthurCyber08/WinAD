@@ -1,19 +1,18 @@
 
 <!-- Your monitor number = #$34T# -->
 
-# 💡 Setup RADIUS Server for 802.1x Wireless Authentication
+# 💡 Setup RADIUS Server for 802.1x Wired Authentication
 
-### 1. On Server Manager
-Go to Manage > `Network Policy Server` __[01]__
+### 1. On Networ Policy Server
+Drop down `RADIUS Clients and Servers` __[01]__. Then, right-click `RADIUS Clients` __[02]__, `New` __[03]__
 
 <br>
 
-![01-AAA](<img/AAA-01.png>)
+![01-AAA](<img/00 RADIUS-Wired-01.png>)
 
 &nbsp;
 ---
 &nbsp;
-
 
 ### 2. Standard Configuration
 On Network Policy Server, select `NPS(Local)` __[02]__. Then, on the drop down, select `RADIUS server for 802.1X Wireless or Wired Connections` __[03]__. Then, `Configure VPN or Dial-Up` __[04]__
