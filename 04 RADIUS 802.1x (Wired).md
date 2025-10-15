@@ -14,12 +14,23 @@ Drop down `RADIUS Clients and Servers` __[01]__. Then, right-click `RADIUS Clien
 ---
 &nbsp;
 
-### 2. Standard Configuration
-On Network Policy Server, select `NPS(Local)` __[02]__. Then, on the drop down, select `RADIUS server for 802.1X Wireless or Wired Connections` __[03]__. Then, `Configure VPN or Dial-Up` __[04]__
+### 2. New RADIUS Client
+> [!IMPORTANT]
+> The RADIUS Client to be configured for this guide, is a CSR1000v with an IP of 208.8.8.11  
+>  
+> If you are going to use a different RADIUS client, make sure to specify the appropriate IP address.
 
 <br>
 
-![02-AAA](<img/AAA-02.png>)
+- Friendly name: `CSR1000v` __[04]__  
+- Address: `208.8.8.11` __[05]__
+- Shared Secret: `C1sc0123` __[06]__
+
+<br>
+
+Then, select `OK` __[07]__
+
+![02-AAA](<img/00 RADIUS-Wired-02.png>)
 
 &nbsp;
 ---
