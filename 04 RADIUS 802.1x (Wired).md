@@ -208,3 +208,89 @@ Under Attribute Value, select 'Others' __[34]__. Then, specify 'Login` __[35]__,
 
 ![19-AAA](<img/00 RADIUS-Wired-18.png>)
 
+&nbsp;
+---
+&nbsp;
+
+### 18. Vendor Specification
+Select, `Vendor Specific` __[37]__ . Then, `Add...` __[38]__
+ 
+<br>
+
+![20-AAA](<img/00 RADIUS-Wired-19.png>)
+
+&nbsp;
+---
+&nbsp;
+
+### 19. Add Vendor Specific Attribute
+For Vendor, select `Cisco` __[39]__. Select `Cisco-AV-Pair` __[40]__. Then, `Add...` __[41]__
+
+<br>
+
+![21-AAA](<img/00 RADIUS-Wired-20.png>)
+
+&nbsp;
+---
+&nbsp;
+
+### 20. Attribute Information
+On, Attribute Value, enter the string: `shell:priv-lvl=15` __[42]__. Then, `OK` __[43]__.
+
+<br>
+
+![22-AAA](<img/00 RADIUS-Wired-21.png>)
+
+&nbsp;
+---
+&nbsp;
+
+### 21. Confirm Attribute Information
+Select, `OK` __[44]__. Then, `Close` __[45]__.
+
+<br>
+
+![23-AAA](<img/00 RADIUS-Wired-22.png>)
+
+&nbsp;
+---
+&nbsp;
+
+### 22. Encryption
+Select `Encryption` __[46]__. Then, uncheck the other encryption and select only `No encryption` __[47]__  
+Then, select `Next` __[48]__
+
+<br>
+
+![24-AAA](<img/00 RADIUS-Wired-23.png>)
+
+&nbsp;
+---
+&nbsp;
+
+### 23. Confirm Network Policy
+Finally, `Finish` __[49]__
+
+<br>
+
+![25-AAA](<img/00 RADIUS-Wired-24.png>)
+
+&nbsp;
+---
+&nbsp;
+
+### 24. Set Policy
+Right-click on the recently created policy, `Win-RADPolicy` __[50]__. Then, select `Move Up` __[51]__  
+Keep, moving the policy until it's at the very top.  
+
+<br>
+
+![26-AAA](<img/00 RADIUS-Wired-25.png>)
+
+&nbsp;
+---
+&nbsp;
+
+### 25. Confirmation
+
+![27-AAA](<img/00 RADIUS-Wired-26.png>)
