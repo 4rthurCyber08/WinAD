@@ -36,146 +36,175 @@ Then, select `OK` __[07]__
 ---
 &nbsp;
 
-### 3. 802.1X Connection Type
-Select `Secure Wireless Connections` __[05]__. Then, `Next` __[06]__
+### 3. Create New Network Policies
+Drop down `Policies` __[08]__. Then, right-click `Network Policies` __[09]__, select `New` __[10]__.
 
 <br>
 
-![03-AAA](<img/AAA-03.png>)
+![03-AAA](<img/00 RADIUS-Wired-03.png>)
 
 &nbsp;
 ---
 &nbsp;
 
-### 4. Specify 802.1X Switches
-`Add...` __[07]__ a RADIUS client.
+### 4. Specify Network Policy Name and Connection Type
+Specify a policy name, `Win-RADPolicy` __[11]__. Then, `Next` __[12]__
 
 <br>
 
-![04-AAA](<img/AAA-04.png>)
+![04-AAA](<img/00 RADIUS-Wired-04.png>)
 
 &nbsp;
 ---
 &nbsp;
 
-### 5. New RADIUS Client
-> [!IMPORTANT]
-> The RADIUS Client to be configured for this guide, is a C9800 WLC with an IP of 10.92.1.7
->  
-> If you are going to use a different RADIUS client, make sure to specify the appropriate IP address.
+### 5. Specify Conditions
+Select `Add...` __[13]__
 
 <br>
 
-- Friendly name: `C9800-WLC` __[08]__  
-- Address: `10.#$34T#.1.7` __[09]__
-- Shared Secret: `C1sc0123` __[10]__
-
-<br>
-
-Then, select `OK` __[11]__
-
-<br>
-
-![05-AAA](<img/AAA-05.png>)
+![05-AAA](<img/00 RADIUS-Wired-05.png>)
 
 &nbsp;
 ---
 &nbsp;
 
-### 6. Finalize 802.1X clients
-Select `Next` __[12]__
+### 6. Select Condition
+Select `Windows Groups` __[14]__, then `Add` __[15]__
 
 <br>
 
-![06-AAA](<img/AAA-06.png>)
+![06-AAA](<img/00 RADIUS-Wired-06.png>)
 
 &nbsp;
 ---
 &nbsp;
 
-### 7. Configure an Authentication Method
-Select `Microsoft: Protected EAP (PEAP)` __[13]__.  
+### 7. Windows Groups
+Select, `Add Groups...` __[16]__.  
 
 <br>
 
-Then, select `Next` __[14]__
-
-<br>
-
-![07-AAA](<img/AAA-07.png>)
+![07-AAA](<img/00 RADIUS-Wired-07.png>)
 
 &nbsp;
 ---
 &nbsp;
 
 ### 8. Add User Groups
-`Add...` __[15]__
+Type `Do` __[17]__, then `Check Names` __[18]__. On, the Multiple Names Found window, select `Domain Users` __[19]__. Then, `OK` __[20]__.
 
 <br>
 
-![08-AAA](<img/AAA-08.png>)
+![08-AAA](<img/00 RADIUS-Wired-08.png>)
 
 &nbsp;
 ---
 &nbsp;
 
 ### 9. Select Group
-Enter the first 2 letters of the specified User Group: `Do` __[16]__. Then, in case there is a lot of user groups or you don't remember them, you can select `Check Names` __[17]__
+Then, select `OK` __[21]__
 
 <br>
 
-![09-AAA](<img/AAA-09.png>)
+![09-AAA](<img/00 RADIUS-Wired-09.png>)
 
 &nbsp;
 ---
 &nbsp;
 
-### 10. Find Names
-Select `Domain Users` __[18]__. Then, `OK` __[19]__
+### 10. Windows Groups
+Confirm the selected groups `OK` __[22]__
 
 <br>
 
-![10-AAA](<img/AAA-10.png>)
+![10-AAA](<img/00 RADIUS-Wired-10.png>)
+
+<br>
+<br>
+
+![10-AAA](<img/00 RADIUS-Wired-11.png>)
+
+<br>
+
+Then, `Next` __[23]__
 
 &nbsp;
 ---
 &nbsp;
 
-### 11. Confirm Group Selection
-Verify if `Domain Users` __[20]__ is now listed. Then, `OK` __[21]__
+### 11. Specify Access Permission
+Leave as Default, select `Next` __[24]__
 
 <br>
 
-![11-AAA](<img/AAA-11.png>)
-
-<br>
-<br>
-
-Then `Next` __[22]__
-
-<br>
-
-![12-AAA](<img/AAA-12.png>)
+![13-AAA](<img/00 RADIUS-Wired-12.png>)
 
 &nbsp;
 ---
 &nbsp;
 
-### 12. Traffic Controls
-Leave as Default, select `Next` __[23]__
+### 12. Configure Authentication Methods
+Disable all Microsoft Authentication Methods, and select only `Unencrypted authentication (PAP, SPAP)` __[25]__  
+Then, select `Next` __[26]__  
 
 <br>
 
-![13-AAA](<img/AAA-13.png>)
+![14-AAA](<img/00 RADIUS-Wired-13.png>)
 
 &nbsp;
 ---
 &nbsp;
 
-### 13. Confirm Configurations
-Finally, select `Finish` __[24]__
+### 13. Confirm Request Policy
+Windows simply throw a warning, ignore it. Select `No` __[27]__
 
 <br>
 
-![14-AAA](<img/AAA-14.png>)
+![15-AAA](<img/00 RADIUS-Wired-14.png>)
+
+&nbsp;
+---
+&nbsp;
+
+### 14. Configure Constraints
+Select __[28]__
+
+<br>
+
+![16-AAA](<img/00 RADIUS-Wired-15.png>)
+
+&nbsp;
+---
+&nbsp;
+
+### 15. Configure Settings
+Under RADIUS Attributes, select `Standard` __[29]__.  
+Select `Framed-Protocol` __[30]__, then, `Remove` __[31]__
+
+<br>
+
+![17-AAA](<img/00 RADIUS-Wired-16.png>)
+
+&nbsp;
+---
+&nbsp;
+
+### 16. Add Attributes
+Select, 'Service-Type' __[32]__. Then, `Edit` __[33]__
+
+<br>
+
+![18-AAA](<img/00 RADIUS-Wired-17.png>)
+
+&nbsp;
+---
+&nbsp;
+
+### 17. Attribute Information
+Under Attribute Value, select 'Others' __[34]__. Then, specify 'Login` __[35]__, then `OK` __[36]__. 
+
+<br>
+
+![19-AAA](<img/00 RADIUS-Wired-18.png>)
 
