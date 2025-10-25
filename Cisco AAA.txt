@@ -5,14 +5,14 @@ conf t
  username admin privilege 15 secret pass
  aaa new-model
  radius server WINRAD
-  address ipv4 10.m.1.8 auth-port 1812 acct-port 1813
-  key keykeymo
+  address ipv4 208.8.8.8 auth-port 1812 acct-port 1813
+  key C1sc0123
   exit
  aaa group server radius RADGROUP
   server name WINRAD
   exit
  aaa authentication login default group RADGROUP local
  aaa authorization exec default group RADGROUP local
- line vty 0 14
+ line vty 0 4
   login authentication default
  end
