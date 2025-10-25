@@ -1,4 +1,4 @@
-RADIUS AAA
+RADIUS AAA [ shell:priv-lvl=15 ]
 
 !@Cisco
 conf t
