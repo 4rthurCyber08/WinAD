@@ -1,0 +1,17 @@
+iSCSI Target Server
+iSCSI Target Storage Provider
+
+iSCSI Disk
+
+
+Create Virtual Disk
+Server Manager > Disk > New Volume > Initialize GPT
+
+New iSCSI Virtual Disk > 
+
+
+Client > iSCSI Initiatior
+
+
+********
+Services > SNMP Service > Properties > Security
